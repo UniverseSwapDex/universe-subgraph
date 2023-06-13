@@ -1,0 +1,25 @@
+specVersion: 0.0.2
+description: UniverseSwap is a multi-chain decentralized digital assets exchange.
+repository: https://github.com/UniverseSwapDex
+schema:
+  file: ./schema.graphql
+dataSources:
+  - kind: ethereum/contract
+    name: Migrations
+    network: mainnet
+    source:
+      address: "0x95B7f291800F5264F91afa1E92B99E123fe98Ab3"
+      abi: Migrations
+      startBlock: 8163294
+    mapping:
+      kind: ethereum/events
+      apiVersion: 0.0.4
+      language: wasm/assemblyscript
+      file: ./mappings/index.ts
+      entities:
+        - Block
+      abis:
+        - name: Migrations
+          file: ./abis/Migrations.json
+      blockHandlers:
+        - handler: handleBlock
