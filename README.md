@@ -1,22 +1,22 @@
-# Glide Finance Subgraph
+# UniverseSwap Finance Subgraph
 
-TheGraph exposes a GraphQL endpoint to query the events and entities within the Elastos Smart Chain and Glide Finance ecosystem.
+TheGraph exposes a GraphQL endpoint to query the events and entities within the Binance Smart Chain and UniverseSwap Finance ecosystem.
 
 Currently, there are multiple subgraphs, but additional subgraphs can be added to this repository, following the current architecture.
 
 ## Subgraphs
 
-1. **[Blocks]**: Tracks all blocks on the Elastos Smart Chain (ESC).
+1. **[Blocks]**: Tracks all blocks on the Binance Smart Chain (BSC).
 
-2. **[Exchange]**: Tracks all Glide Exchange data with price, volume, liquidity, ...
+2. **[Exchange]**: Tracks all UniverseSwap Exchange data with price, volume, liquidity, ...
 
-2. **[Glide-Staking]**: Tracks all manual and auto Glide stake deposits and withdraws 
+2. **[Staking]**: Tracks all manual and auto UniverseSwap stake deposits and withdraws 
 
-4. **[Pairs]**: Tracks all Glide Pairs and Tokens.
+4. **[Pairs]**: Tracks all UniverseSwap Pairs and Tokens.
 
-5. **[SmartChef]**: Tracks all Glide SmartChef (a.k.a. Sugar Pools) with tokens and rewards.
+5. **[SmartChef]**: Tracks all UniverseSwap SmartChef (a.k.a. Sugar Pools) with tokens and rewards.
 
-6. **[Timelock])**: Tracks all Glide Timelock queued, executed, and cancelled transactions.
+6. **[Timelock])**: Tracks all UniverseSwap Timelock queued, executed, and cancelled transactions.
 
 ## Dependencies
 
