@@ -8,8 +8,8 @@
   "scripts": {
     "codegen": "graph codegen subgraph.yaml",
     "build": "graph build subgraph.yaml",
-    "create-local": "graph create universeswap/exchange --node http://127.0.0.1:8020",
-    "deploy-local": "graph deploy universeswap/exchange --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
-    "deploy": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ universeswap/exchange subgraph.yaml"
+    "create-local": "graph create universeswapdex/exchange --node http://127.0.0.1:8020",
+    "deploy-local": "graph deploy universeswapdex/exchange --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
+    "deploy": "graph deploy --product hosted-service --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ universeswapdex/exchange subgraph.yaml"
   }
 }
